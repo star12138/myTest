@@ -9,11 +9,18 @@ import lombok.Data;
 @Data
 public class Question {
     private String userName;
+    private String platform;
 
     private String cont;
 
     public Question(String userName, String cont) {
         this.userName = userName;
+        this.cont = cont;
+    }
+
+    public Question(String userName, String platform, String cont) {
+        this.userName = userName;
+        this.platform = platform;
         this.cont = cont;
     }
 }

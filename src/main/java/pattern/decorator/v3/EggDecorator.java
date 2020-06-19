@@ -12,7 +12,7 @@ public class EggDecorator extends BattercakeDecorator {
 
     @Override
     public String getMag() {
-        return super.getMag() + "加一个鸡蛋";
+        return super.getMag() + " 加一个鸡蛋";
     }
 
     @Override
